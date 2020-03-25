@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+}
+// the body of the page
+body{
+    background-color: aqua;
+    font-size: 1.6em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+// The main_container of the page container all the element
+#main_container{
+    background-color: bisque;
+    margin: 0;
+    padding: 0;
+    
+}
+// the div of the id sign _in
+div#sign _in{
+    background: #ffffff;
+    width: 30em;
+    height: 30em;
+    position: absolute;
+    right: 0em;
+    top: 0;
+    
+    
+
+}
+
+h5.first_h{
+    font-size: 0.8em;
+    color: #000000;
+    margin:0;
+    padding: 0;
+    position: absolute;
+    right: 0em;
+    top: 0.8em;
+    margin-right: 11em;
+   
+    
+  
+
+}
+a.user{
+    text-decoration: none;
+    font-size: 0.8em;
+    color: #0000ff;
+    position: absolute;
+    right: 0em;
+    top: 1.9em;
+    margin-right: 11em;
+
+    
+    
+    
+
+}
+.user a:hover{
+    color: #7fff00;
+    cursor: pointer;
+    
+}
+button.signin{
+    font-size: 0.9em;
+    font-weight: bold;
+    width: 8%;
+    height: 5%;
+    background-color: #0000ff;
+    border:none;
+    border-radius: 0.8em;
+    cursor: pointer;
+    text-decoration: none;
+    color: #ffebcd;
+    text-align: center;
+    margin-right: 1.5em;
+    position: absolute;
+    right: 0em;
+    top: 0.5em;
+}
+// The header part of the page
+
+div#header{
+    text-align: center;
+    margin: 3.5em;
+
+}
+header{
+    text-align: center;
+    margin: 3.5em;
+
+}
+h1.head{
+    font-size: 2.em;
+    color: #5f9ea0;
+    font-weight: bolder;
+    margin-top: 2.4em;
+    
+
+}
+.mint a{
+    text-decoration: none;
+    color: #5f9ea0;
+    margin-top: 3.5em;
+    padding-top: 3.5em;
+    
+
+}
