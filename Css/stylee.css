@@ -1,14 +1,13 @@
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 // the body of the page
 body{
     background-color: aqua;
     font-size: 1.6em;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-    
 }
 
 // The main_container of the page container all the element
@@ -85,8 +84,6 @@ button.signin{
 
 div#header{
     text-align: center;
-    margin: 3.5em;
-
 }
 header{
     text-align: center;
@@ -106,62 +103,38 @@ h1.head{
     color: #5f9ea0;
     margin-top: 3.5em;
     padding-top: 3.5em;
-    
-    
-
 }
-   
-}
-.form{
-    border-radius: 3px;
-    background-color: rgb(161, 17, 17);
-    padding: 20px;
-    vertical-align: middle;
-    
+.formContainer{
+    display: flex;
+    justify-content: center;
     
 }
 form{
-    width: 50%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 3px;
+    width: 30%;
     height: 20%;
-    border: 1px solid #5f9ea0;
+    border: 5px solid #5f9ea0;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-
-input[type=text] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #5f9ea0;
-    border-radius: 2px;
-    box-sizing: border-box;
+.form-header{
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    margin-bottom: 4rem;
+    margin-top: 1.3rem;
 }
-input[type=email] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #5f9ea0;
-    border-radius: 2px;
-    box-sizing: border-box;
+.advText{
+    margin-top: 1rem;
 }
-input[type=number] {
+.infoinput{
     width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
+    padding: 0.7rem;
+    margin-top: 0.3rem;
+    margin-bottom: 2rem;
     display: inline-block;
-    border: 1px solid #5f9ea0;
-    border-radius: 2px;
-    box-sizing: border-box;
-}
-input[type=password] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #5f9ea0;
-    border-radius: 2px;
-    box-sizing: border-box;
+    border: 0.5px solid #616e6e;
+    border-radius: 4px;
 }
 input[type=submit]{
     width: 100%;
@@ -171,6 +144,16 @@ input[type=submit]{
     margin: 8px 0;
     border: none;
     cursor: pointer;
+}
+.phone{
+    font-size: 10px;
+    margin-top: -2rem;
+    margin-bottom: 1rem;
+}
+.textFooter{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 13px;
 }
 
 
