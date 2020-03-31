@@ -3,29 +3,41 @@
     margin: 0;
     padding: 0;
 }
-html{
-    background-color: #ECEEF1;
-}
+
 // the body of the page
 body{
+    background-color:yellow;
     font-size: 1.6em;
     font-family: Arial, Helvetica, sans-serif;
+    width:100%;
+    
+}
+#main_container{
+    width:100%;
+    position:relative;
+    background-color: #ECEEF1;
 }
 // the div of the id sign _in
 .sign_in{
-    display: table-cell;
-    text-align: right;
-    justify-content: right;
-    background-color: #000000;
+    background-color:white;
+    height:5%;
+    float:right;
 }
 .first_h{
-    font-size: 0.8em;
-    color: #000000;
+    padding-right:3rem;
+     margin-top:0;
+    margin-right:5rem;
+    font-size:0.8rem;
 }
 a.user{
     text-decoration: none;
     font-size: 0.8em;
     color: #0000ff;
+    position:absolute;
+  top:1rem;
+  text-decoration:none;
+  padding-left:0.1rem;
+    
 }
 .user a:hover{
     color: #7fff00;
@@ -43,19 +55,23 @@ button.signin{
     text-decoration: none;
     color: #ffebcd;
     text-align: center;
+    position:absolute;
+    margin-left:6rem;
+    margin-bottom:0.5rem;
+    top:0;
 }
 // The header part of the page
 div#header{
     text-align: center;
-    background-color: #000000;
+    background-color: #5a13cc;
 }
 header{
     text-align: center;
     margin-top: 3.5em;
-    margin-bottom: 1em ;
+    margin-bottom: 1em;
 }
 h1.head{
-    font-size: 2.em;
+    font-size: 2em;
     color: #5f9ea0;
     font-weight: bolder;
     margin-top: 2.4em;
