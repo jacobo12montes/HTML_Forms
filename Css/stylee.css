@@ -3,65 +3,33 @@
     margin: 0;
     padding: 0;
 }
+html{
+    background-color: #ECEEF1;
+}
 // the body of the page
 body{
-    background-color: aqua;
     font-size: 1.6em;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-// The main_container of the page container all the element
-#main_container{
-    background-color: bisque;
-    margin: 0;
-    padding: 0;
-    
-}
 // the div of the id sign _in
-div#sign _in{
-    background: #ffffff;
-    width: 30em;
-    height: 30em;
-    position: absolute;
-    right: 0em;
-    top: 0;
-    
-    
-
+.sign_in{
+    display: table-cell;
+    text-align: right;
+    justify-content: right;
+    background-color: #000000;
 }
-
-h5.first_h{
+.first_h{
     font-size: 0.8em;
     color: #000000;
-    margin:0;
-    padding: 0;
-    position: absolute;
-    right: 0em;
-    top: 0.8em;
-    margin-right: 11em;
-   
-    
-  
-
 }
 a.user{
     text-decoration: none;
     font-size: 0.8em;
     color: #0000ff;
-    position: absolute;
-    right: 0em;
-    top: 1.9em;
-    margin-right: 11em;
-
-    
-    
-    
-
 }
 .user a:hover{
     color: #7fff00;
-    cursor: pointer;
-    
+    cursor: pointer;   
 }
 button.signin{
     font-size: 0.9em;
@@ -75,28 +43,22 @@ button.signin{
     text-decoration: none;
     color: #ffebcd;
     text-align: center;
-    margin-right: 1.5em;
-    position: absolute;
-    right: 0em;
-    top: 0.5em;
 }
 // The header part of the page
-
 div#header{
     text-align: center;
+    background-color: #000000;
 }
 header{
     text-align: center;
-    margin: 3.5em;
-
+    margin-top: 3.5em;
+    margin-bottom: 1em ;
 }
 h1.head{
     font-size: 2.em;
     color: #5f9ea0;
     font-weight: bolder;
     margin-top: 2.4em;
-    
-
 }
 .mint a{
     text-decoration: none;
@@ -110,23 +72,21 @@ a{
 .formContainer{
     display: flex;
     justify-content: center;
-    
-    
 }
 form{
+    background-color: #ffffff;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     border-radius: 3px;
-    width: 30%;
+    width: 24rem;
     height: 20%;
     border: 1px solid #5f9ea0;
     font-family: Arial, Helvetica, sans-serif;
-    
 }
 .form-header{
     font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 13px;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     margin-top: 1.3rem;
 }
 .advText{
@@ -140,7 +100,9 @@ form{
     display: inline-block;
     border: 0.5px solid #616e6e;
     border-radius: 4px;
-    
+}
+.label{
+    font-size: 14px;
 }
 input[type=submit]{
     width: 100%;
@@ -159,21 +121,27 @@ input[type=submit]{
 .textFooter{
     text-align: center;
     margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
     font-size: 13px;
+    font-style: italic;
+    color: #616e6e;
 }
-
-
 div.form_footer{
-    background-color: #5f9ea0;
-    width: auto;
-    margin: auto;
+    background-color: #ECEEF1;
+    margin-left: -1.44rem;    
     margin-top: 1.9rem;
+    line-height: 3rem;
     text-align: center;
-    line-height: 2rem;
+    width: 114.1%;
 }
 div.formContainer a{
     font-size: 0.7rem;
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 1.3rem;
 }
+.cli{
+    font-size: 12px;
 
+}
