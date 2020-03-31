@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+#main_container{
+    background-color: #ECEEF1;
+}
 .nav_bar{
     height: 3rem;
     margin-left: 63rem;
