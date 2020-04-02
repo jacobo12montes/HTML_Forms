@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-#main_container {
+main {
   background-color: #eceef1;
 }
 
@@ -66,38 +66,50 @@ div.formContainer a {
   margin-left: 1rem;
   margin-top: 0.6rem;
 }
-
-.mint {
-  font-size: 1.3em;
-  height: 2rem;
-  width: 2rem;
-  padding: 2rem;
-}
-
 .header_form {
-  width: 100%;
+  margin: auto;
   text-align: center;
+  width: 100%;
+  margin-top: 0.9rem;
 }
-
-h1.head {
-  font-size: 2em;
-  color: #5f9ea0;
-  font-weight: bolder;
+.header_form img {
+  height: 35px;
+  padding-top: 0.9rem;
+  width: 120px;
+  cursor: pointer;
 }
-
-.header {
-  display: inline-block;
-  padding: 3px;
-  margin: 0 auto;
-  margin-bottom: 1rem;
-}
-
 .header1 {
   display: flex;
+  font-size: 1.3em;
+  height: 2rem;
   justify-content: center;
+  margin-bottom: 0.2rem;
+  padding: 0.9rem;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
   width: 100%;
-}
 
+}
+.header1 img {
+  width: 2rem;
+  padding: 0.2rem;
+  cursor: pointer;
+}
+.header1 span {
+  display: inline-block;
+  color: #616e6e;
+  line-height: 2rem;
+  vertical-align: middle;
+  cursor: pointer;
+
+}
+.form-header{
+  text-align: center;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #616e6e;
+  font-weight: normal;
+}
 .formContainer {
   box-sizing: border-box;
   display: flex;
@@ -189,15 +201,21 @@ div.form_footer {
 
 footer {
   margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
   font-size: 0.8rem;
   font-family: Arial, Helvetica, sans-serif;
   color: #616e6e;
   text-align: center;
 }
-
-.footer_a:hover {
+.footer_a {
   color: #616e6e;
+  margin-bottom: 0.2rem;
+}
+.footer_a:hover {
+  margin-bottom: 0.1rem;
   cursor: pointer;
   text-decoration: underline;
+}
+.placeholder {
+  display: inline-block;
+  padding: 0.2rem;
 }
