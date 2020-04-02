@@ -66,50 +66,55 @@ div.formContainer a {
   margin-left: 1rem;
   margin-top: 0.6rem;
 }
+
 .header_form {
   margin: auto;
   text-align: center;
   width: 100%;
   margin-top: 0.9rem;
 }
+
 .header_form img {
   height: 35px;
   padding-top: 0.9rem;
   width: 120px;
   cursor: pointer;
 }
+
 .header1 {
   display: flex;
   font-size: 1.3em;
   height: 2rem;
   justify-content: center;
-  margin-bottom: 0.2rem;
-  padding: 0.9rem;
-  padding-left: 0.2rem;
-  padding-right: 0.2rem;
+  margin-bottom: 0.5rem;
+  padding: 0.9rem 0.2rem 0 0.2rem;
   width: 100%;
-
 }
+
 .header1 img {
   width: 2rem;
   padding: 0.2rem;
   cursor: pointer;
 }
+
 .header1 span {
   display: inline-block;
   color: #616e6e;
   line-height: 2rem;
   vertical-align: middle;
   cursor: pointer;
-
 }
-.form-header{
+
+.form-header {
   text-align: center;
   font-size: 1rem;
   font-family: Arial, Helvetica, sans-serif;
   color: #616e6e;
   font-weight: normal;
+  margin-bottom: 2rem;
+  margin-top: 1.3rem;
 }
+
 .formContainer {
   box-sizing: border-box;
   display: flex;
@@ -126,13 +131,6 @@ form {
   height: 20%;
   border: 1px solid #5f9ea0;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-.form-header {
-  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 13px;
-  margin-bottom: 2rem;
-  margin-top: 1.3rem;
 }
 
 .advText {
@@ -197,6 +195,8 @@ div.form_footer {
 .footer_a {
   text-decoration: none;
   display: inline-block;
+  color: #616e6e;
+  margin-bottom: 0.2rem;
 }
 
 footer {
@@ -206,15 +206,13 @@ footer {
   color: #616e6e;
   text-align: center;
 }
-.footer_a {
-  color: #616e6e;
-  margin-bottom: 0.2rem;
-}
+
 .footer_a:hover {
   margin-bottom: 0.1rem;
   cursor: pointer;
   text-decoration: underline;
 }
+
 .placeholder {
   display: inline-block;
   padding: 0.2rem;
