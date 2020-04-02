@@ -51,11 +51,6 @@ div.formContainer a {
   cursor: pointer;
 }
 
-.mint,
-.flash {
-  font-size: 1.3em;
-}
-
 .signin {
   font-size: 0.9em;
   font-weight: bold;
@@ -72,23 +67,35 @@ div.formContainer a {
   margin-top: 0.6rem;
 }
 
+.mint {
+  font-size: 1.3em;
+  height: 2rem;
+  width: 2rem;
+  padding: 2rem;
+}
+
 .header_form {
   width: 100%;
   text-align: center;
-}
-
-.header {
-  display: inline-block;
-  padding: 3px;
-  margin: 0 auto;
-  width: 26.7rem;
-  margin-bottom: 1rem;
 }
 
 h1.head {
   font-size: 2em;
   color: #5f9ea0;
   font-weight: bolder;
+}
+
+.header {
+  display: inline-block;
+  padding: 3px;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.header1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 .formContainer {
