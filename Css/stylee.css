@@ -25,7 +25,7 @@ main {
 
 a.user {
   text-decoration: none;
-  color: #0077C5;
+  color: #0077c5;
 }
 
 a {
@@ -111,7 +111,7 @@ div.formContainer a {
 
 .form-header1 {
   font-weight: lighter;
-  color: #4C4C4C;
+  color: #4c4c4c;
 }
 
 .formContainer {
@@ -157,8 +157,8 @@ form {
 }
 
 .submit1 {
-  background: #0077C5;
-  border-color: #0077C5;
+  background: #0077c5;
+  border-color: #0077c5;
   width: 100%;
   color: #fff;
   padding: 11px 17px;
