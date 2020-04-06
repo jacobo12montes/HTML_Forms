@@ -2,7 +2,7 @@
 
 > We created a form for the user can sign-in the intuit platform.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./app_screenshot1.png)
 
 Additional description about the project and its features.
 
